@@ -1,6 +1,6 @@
 # ⚽ REAL FOOTBALL
 
-Um jogo de futebol 2D para dois jogadores, desenvolvido puramente com **HTML5 Canvas** e **JavaScript**.
+Versão beta do meu jogo de futebol 2D para dois jogadores, desenvolvido puramente com **HTML5 Canvas** e **JavaScript**.
 
 ## 🎮 Como Jogar
 Acesse o link do jogo aqui: https://arthurcruzz17.github.io/real_football/
