@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Football</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="lobby" class="overlay">
+            <h1 class="main-title">REAL FOOTBALL</h1>
+            <p class="subtitle">Personalize o nome e a cor do seu jogador abaixo! 😎</p>
+            
+            <div class="input-group">
+                <input type="text" id="p1NameInput" value="Jogador 1" maxlength="10">
+                <input type="color" id="p1ColorInput" value="#ffffff">
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="p2NameInput" value="Jogador 2" maxlength="10">
+                <input type="color" id="p2ColorInput" value="#0055ff">
+            </div>
+            
+            <button id="startBtn">COMEÇAR PARTIDA</button>
+        </div>
+
+        <div id="gameOverScreen" class="overlay" style="display: none;">
+            <h1 id="winnerText">JOGADOR 1 VENCEU!</h1>
+            <h2 id="finalScoreText">Placar: 10 - 5</h2>
+            <button onclick="location.reload()">JOGAR NOVAMENTE</button>
+        </div>
+
+        <canvas id="gameCanvas" width="900" height="500"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
